@@ -1,0 +1,41 @@
+{
+  "project_name": "Sovereign_Career_Engine",
+  "modules": [
+    {
+      "module_name": "01_document_processing",
+      "files": [
+        {"path": "services/parser.py", "purpose": "Extracts raw text from uploaded PDF/Docx CVs with zero data loss."},
+        {"path": "services/generator.py", "purpose": "Compiles structured JSON data back into production-ready, ATS-optimized PDFs and ZIP packages."}
+      ]
+    },
+    {
+      "module_name": "02_ai_career_expert",
+      "files": [
+        {"path": "agents/ats_optimizer.py", "purpose": "Scores CVs against 2026 ATS algorithms, keyword density, and formatting rules."},
+        {"path": "agents/interview_tutor.py", "purpose": "Interactive simulation agent handling technical Q&A, corporate dress codes, and psychological nerve-settling protocols."}
+      ]
+    },
+    {
+      "module_name": "03_financial_transaction_engine",
+      "files": [
+        {"path": "payments/gateways.py", "purpose": "Dual-currency handler integrating PayFast/Ozow for ZAR and Stripe for global card processing."},
+        {"path": "payments/cart.py", "purpose": "Server-side state manager for cart, checkout tokens, and secure document access keys."}
+      ]
+    },
+    {
+      "module_name": "04_compliance_and_governance",
+      "files": [
+        {"path": "compliance/poopia_gdpr.py", "purpose": "Strict validation layer ensuring instant data sanitization under South Africa's POPIA and global GDPR rules."}
+      ]
+    },
+    {
+      "module_name": "05_ats_scoring_engine",
+      "files": [
+        {
+          "path": "services/ats_scorer.py", 
+          "purpose": "Calculates semantic matching scores, keyword density, parsing friction, and formatting compliance against target job descriptions."
+        }
+      ]
+    }
+  ]
+}
